@@ -2,7 +2,7 @@
     font-weight: 500;
 }
 
-.show-bar {
+.material-icons {
     display: none;
 }
 
@@ -96,12 +96,17 @@ nav li:hover>.submenu {
     opacity: 1;
 }
 
+.icon {
+    display: none;
+    margin: 0;
+}
+
 @media screen and (max-width: 600px) {
     .topmenu {
         display: none;
     }
-    .material-icons {
-        display: inline-block;
+    .icon {
+        display: block;
     }
     .show-bar {
         display: block;
