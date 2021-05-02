@@ -2,6 +2,10 @@
     font-weight: 500;
 }
 
+.material-icons {
+    display: none;
+}
+
 nav {
     background: #018be8;
     font-weight: 600;
@@ -90,10 +94,6 @@ nav li:hover>.submenu {
     transform: rotateX(0deg);
     visibility: visible;
     opacity: 1;
-}
-
-.material-icons {
-    display: none;
 }
 
 @media screen and (max-width: 600px) {
