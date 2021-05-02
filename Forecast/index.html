@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300;1,600&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/navbar.css">
+</head>
+
+<body>
+    <nav>
+        <span class="material-icons"><img src="/img/outlineicon.png"></span>
+        <ul id="topMenu" class="topmenu">
+            <li><a href="/index.html" class="active">Главная<span class="fa fa-angle-down"></span></a>
+            </li>
+            <li><a href="#">Портфолио</a>
+                <ul class="submenu f-500">
+                    <li><a href="https://project-resume-by-pavliukov.netlify.app" target="_blank">Project "Resume"</a></li>
+                    <li><a href="https://selectimg.netlify.app" target="_blank">Project "Select image"</a></li>
+                    <li><a href="https://hopeful-darwin-3ed7c2.netlify.app" target="_blank">Project "Current weather v1.0"</a></li>
+                    <li><a href="https://elastic-panini-108e02.netlify.app" target="_blank">Project "Forecast weather v1.0"</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Прогноз погоды</a>
+                <ul class="submenu f-500">
+                    <li>
+                        <a href="/Current/index.html" target="_blank">Текущая погода</a>
+                    </li>
+                    <li>
+                        <a href="/Forecast/index.html" target="_blank">Прогноз погоды на 5 дней</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Игры в браузере</a>
+                <ul class="submenu f-500">
+                    <li>
+                        <a href="https://jovial-wozniak-f16aba.netlify.app" target="_blank">Game "Search Tressure"</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Контакты</a>
+                <ul class="submenu f-500 ">
+                    <li>
+                        <a href="tel:+380636777332 ">+38 (063) 677 73 32</a>
+                    </li>
+                    <li>
+                        <a href="mailto:pavliukov.ps@gmail.com ">Написать по почте</a>
+                    </li>
+                    <li>
+                        <a href="http://t.me/the_coloser " target="_blank ">Мой телеграм</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="common-container">
+        <h1 class="header ta-c fw-600">Прогноз погоды</h1>
+        <div class="main-container">
+            <div class="select-city">
+                <p class="label-for-city-select fw-600">Выберите город</p>
+            </div>
+            <div class="date-now"></div>
+        </div>
+        <div class="container">
+            <div class="main-info b-r bg-opacity">
+                <div class="name-of-city ta-c flex b-r bg-opacity"></div>
+                <div class="curr-temp flex ta-c b-r bg-opacity"></div>
+                <div class="icon-weather flex b-r bg-opacity"></div>
+                <div class="feels-like flex ta-c b-r bg-opacity"></div>
+                <div class="humidity flex ta-c b-r bg-opacity"></div>
+                <div class="pressure flex ta-c b-r bg-opacity"></div>
+                <div class="min-temp flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="max-temp flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="wind-speed flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="wind-degree flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="sunrise flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="sunset flex ta-c fw-600 b-r bg-opacity"></div>
+                <div class="description flex ta-c fw-600 b-r bg-opacity"></div>
+            </div>
+            <div class="other-info b-r bg-opacity">
+
+                <div class="block one bg-opacity b-r">
+                    <div class="time-date-1 flex ta-c fw-600"></div>
+                    <div class="icon-weather-1 flex ta-c fw-600"></div>
+                    <div class="temp-1 flex ta-c fw-600"></div>
+                    <div class="description-1 flex ta-c fw-600"></div>
+                </div>
+
+                <div class="block two bg-opacity b-r">
+                    <div class="time-date-2 flex ta-c fw-600"></div>
+                    <div class="icon-weather-2 flex ta-c fw-600"></div>
+                    <div class="temp-2 flex ta-c fw-600"></div>
+                    <div class="description-2 flex ta-c fw-600"></div>
+                </div>
+
+                <div class="block three bg-opacity b-r">
+                    <div class="time-date-3 flex ta-c fw-600"></div>
+                    <div class="icon-weather-3 flex ta-c fw-600"></div>
+                    <div class="temp-3 flex ta-c fw-600"></div>
+                    <div class="description-3 flex ta-c fw-600"></div>
+                </div>
+
+                <div class="block four bg-opacity b-r">
+                    <div class="time-date-4 flex ta-c fw-600"></div>
+                    <div class="icon-weather-4 flex ta-c fw-600"></div>
+                    <div class="temp-4 flex ta-c fw-600"></div>
+                    <div class="description-4 flex ta-c fw-600"></div>
+                </div>
+
+                <div class="block five bg-opacity b-r">
+                    <div class="time-date-5 flex ta-c fw-600"></div>
+                    <div class="icon-weather-5 flex ta-c fw-600"></div>
+                    <div class="temp-5 flex ta-c fw-600"></div>
+                    <div class="description-5 flex ta-c fw-600"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/JS/cities.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
