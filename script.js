@@ -8,4 +8,4 @@ function showBar() {
     }
 }
 
-document.querySelector('.material-icons').addEventListener('click', showBar);
+document.querySelector('.icon').addEventListener('click', showBar);
