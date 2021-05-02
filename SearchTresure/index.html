@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра - найди клад (ver 2.0)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/navbar.css">
+</head>
+<nav>
+    <p class="icon">
+        <span class="material-icons"><img src="/img/outlineicon.png"></span>
+    </p>
+    <ul id="topMenu" class="topmenu">
+        <li><a href="/index.html" class="active">Главная<span class="fa fa-angle-down"></span></a></li>
+        <li><a href="#">Портфолио</a>
+            <ul class="submenu f-500">
+                <li><a href="https://project-resume-by-pavliukov.netlify.app" target="_blank">Project "Resume"</a></li>
+                <li><a href="https://selectimg.netlify.app" target="_blank">Project "Select image"</a></li>
+                <li><a href="https://hopeful-darwin-3ed7c2.netlify.app" target="_blank">Project "Current weather v1.0"</a></li>
+                <li><a href="https://elastic-panini-108e02.netlify.app" target="_blank">Project "Forecast weather v1.0"</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Прогноз погоды</a>
+            <ul class="submenu f-500">
+                <li>
+                    <a href="/Current/index.html" target="_blank">Текущая погода</a>
+                </li>
+                <li>
+                    <a href="/Forecast/index.html" target="_blank">Прогноз погоды на 5 дней</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Игры в браузере</a>
+            <ul class="submenu f-500">
+                <li>
+                    <a href="/SearchTresure/index.html" target="_blank">Game "Search Tressure"</a>
+                </li>
+            </ul>
+        </li>
+        <li class="contacts"><a href="#">Контакты</a>
+            <ul class="submenu f-500 ">
+                <li>
+                    <a href="tel:+380636777332 ">+38 (063) 677 73 32</a>
+                </li>
+                <li>
+                    <a href="mailto:pavliukov.ps@gmail.com ">Написать по почте</a>
+                </li>
+                <li>
+                    <a href="http://t.me/the_coloser " target="_blank ">Мой телеграм</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<aside class="sidebar">
+
+    <div>
+        <a href="https://free-ethereum.io/?referer=893453" target="_blank"><img src="img/freeetherium.jpg" width="350" height="350"></a>
+    </div>
+    <div class="second-block"><a href="https://freebitco.in/?r=39540944" target="_blank"><video src="img/animation.gif.mp4"></a></div>
+    <div class="new-block"><span> By Pavel Pavliukov</span> <br> <span>2021</span></div>
+</aside>
+
+<body>
+    <h1 class="headers" id="heading">Игра - найди клад!</h1>
+    <div class="block">
+        <p class="string" id="distance">Здесь будет подсказка, насколько близко ты находишься к цели!</p>
+        <img class="map" id="map" src="img/treasuremap.png" width="600" height="600">
+        <p class="string" id="clicks">Кол-во использованных кликов для игры.</p>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="js/script_of_the_game.js"></script>
+
+    <p class="rules"> <a href="html/Rules.html" target="_blank">Правила игры! Прочти внимательно!</a></p>
+</body>
+
+</html>
